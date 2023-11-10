@@ -1,0 +1,11 @@
+Test (2A): initial election ...
+  ... Passed --   3.1  3 34918 10824172    0
+Test (2A): election after network failure ...
+--- FAIL: TestReElection2A (5.42s)
+    config.go:460: expected one leader, got none
+Test (2A): multiple elections ...
+--- FAIL: TestManyElections2A (5.54s)
+    config.go:460: expected one leader, got none
+FAIL
+exit status 1
+FAIL	6.824/raft	14.644s
